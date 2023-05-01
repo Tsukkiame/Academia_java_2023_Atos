@@ -1,0 +1,18 @@
+mai. 01, 2023 4:48:39 PM Principal main
+INFO: Log de informação
+mai. 01, 2023 4:48:39 PM Principal main
+WARNING: Log de Aviso
+mai. 01, 2023 4:48:39 PM Principal main
+SEVERE: Log Severo
+mai. 01, 2023 4:48:53 PM Calculadora calcular
+INFO: Log de informação
+mai. 01, 2023 4:48:53 PM Calculadora calcular
+WARNING: Log de Aviso
+mai. 01, 2023 4:48:53 PM Calculadora calcular
+SEVERE: Log Severo
+mai. 01, 2023 4:48:53 PM Calculadora calcular
+INFO: O 2º valor digitado é maior.
+mai. 01, 2023 4:48:53 PM Principal main
+INFO: Operação realizada: -
+1º Valor inserido: 3.0
+2º Valor inserido: 9.0
