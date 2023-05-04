@@ -1,0 +1,56 @@
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados conectar
+INFO: Conexão com Banco iniciada
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: Consulta realizada no banco: select * from pessoa
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 1 	João Silva 	 joao@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 2 	Paulo Vargas 	pauloVargas@ufn.edu.br 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 3 	Alberto Santos 	santos@yahoo.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 4 	Ruan Guimarães 	ruanzito@hotmail.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 5 	Alex Sandro do Carmo 	ascarmo@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 6 	Helena Bueno Silva 	helena.silva@ufn.edu.br 	Diretor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+INFO: Quantidade de modificações realizadas: 1
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+WARNING: Modificação realizada: insert into pessoa (nome, email, cargo) values ('Breno Josias','br3n0@hotmail.com','Professor')
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+INFO: Quantidade de modificações realizadas: 1
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+WARNING: Modificação realizada: insert into pessoa (nome, email, cargo) values ('Diogo Freitas Madureira','dioguito.owns@gmail.com','Aluno')
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+INFO: Quantidade de modificações realizadas: 1
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados inserirAlterarExcluir
+WARNING: Modificação realizada: insert into pessoa (nome, email, cargo) values ('Lívia Khrone Luz','livia.luz@ufn.edu.br','Supervisor')
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: Consulta realizada no banco: select * from pessoa
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 1 	João Silva 	 joao@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 2 	Paulo Vargas 	pauloVargas@ufn.edu.br 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 3 	Alberto Santos 	santos@yahoo.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 4 	Ruan Guimarães 	ruanzito@hotmail.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 5 	Alex Sandro do Carmo 	ascarmo@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 6 	Helena Bueno Silva 	helena.silva@ufn.edu.br 	Diretor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 10 	Breno Josias 	br3n0@hotmail.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 11 	Breno Josias 	br3n0@hotmail.com 	Professor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 12 	Diogo Freitas Madureira 	dioguito.owns@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 13 	Diogo Freitas Madureira 	dioguito.owns@gmail.com 	Aluno
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 14 	Lívia Khrone Luz 	livia.luz@ufn.edu.br 	Supervisor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados consultar
+INFO: 15 	Lívia Khrone Luz 	livia.luz@ufn.edu.br 	Supervisor
+mai. 04, 2023 8:43:22 PM com.ExcJDBC_log.BancoDados desconectar
+INFO: Conexão com Banco encerrada.
