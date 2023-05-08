@@ -75,8 +75,8 @@ public class BancoDados implements InterfaceBancoDados {
 			log.logger.info("Consulta realizada no banco: "+db_query);
 			while(rs.next()) {
 				System.out.println(rs.getString(1)+" \t"+rs.getString(2)+" \t"+rs.getString(3)+" \t"+rs.getString(4));
-				log.logger.info(rs.getString(1)+" \t"+rs.getString(2)+" \t"+rs.getString(3)+" \t"+rs.getString(4));
 				}
+			log.logger.info(rs.getString(1)+" \t"+rs.getString(2)+" \t"+rs.getString(3)+" \t"+rs.getString(4));
 			} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.println("Sem conexão ao Banco de Dados: "+e);
