@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+html, body {
+    margin: none;
+    padding: none;
+    
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: rgb(19, 19, 44);;
+}
+
+.header {
+    background-color: rgb(19, 19, 44);
+    height: 35px;
+}
+div h1 {
+	margin-bottom: 15px
+}
+.nome-app {
+	width: 85%;
+    display: flex;
+    padding: 15px;
+    margin: 15px auto;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+.img {
+    height: 40px;
+    width: 100px;
+    background-image: url("static/Atos.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
+.voltar {
+	
+	height: 35px;
+	width: 35px;
+	margin-right: 20px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	
+}
+.voltar:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.voltar div {
+	padding: 2px;
+	margin-left: 8px
+}
+.nome {
+    margin-left: 10px;
+    padding: 3px;
+    flex-grow: 20;
+}
+
+.home {
+    padding: 3px;
+    cursor: pointer;
+    flex-grow: 2;
+    text-align: center;
+}
+.home:hover {
+	text-decoration: underline;
+	text-underline-offset: 8px;
+}
+
+.divisor {
+    margin: 10px auto;
+    background-color: rgba(128, 128, 128, 0.247);
+    width: 90%;
+    height: 3px;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.cadastrar {
+    background-color: white;
+    width: 80%;
+    height: 380px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.212);
+    font-size: 1.2rem;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-produto {
+    height: 80%;
+    background-image: url("static/note_add.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex-grow: 1;
+    padding: 5px 5px 5px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dados-produtos {
+    height: 80%;
+    flex-grow: 18;
+    font-size: 1.4rem;
+}
+
+.excluir-alterar {
+    height: 80%;
+    flex-grow: 2;
+    display: flex;
+}
+
+.excluir {
+    width: 50%;
+    line-height: 65px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.excluir:hover {
+    color: red;
+}
+
+.alterar {
+    width: 50%;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.alterar:hover {
+    color: rgb(5 150 255);;
+}
+
+
+
+.footer {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(5 150 255);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 1.2rem;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+   color: rgb(19, 19, 44);
+}
+a:visited {
+    color: rgb(19, 19, 44);
+}
+
+a:active {
+	color: rgb(19, 19, 44);
+}
+.todos-produtos {
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.botoes {
+    /* junta os inputs */
+    float: left;
+    /* estilos adicionais */
+    padding:  1px ;
+    width: 130px; 
+    
+}
+.botoes input {
+	background-color: rgb(5 150 255);
+	border: none;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	cursor: pointer;
+}
+p {
+	padding: 8px;
+	display: flex;
+	
+}
+.codbar{  
+    height:80%;
+    background-image: url("static/barcode_scanner.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: r;
+    flex-grow: 1;
+    padding: 5px 5px 3px 50px;
+}
+.container-botoes{
+	margin-top: 10px
+}
+input {
+	margin-left: 7px
+}
