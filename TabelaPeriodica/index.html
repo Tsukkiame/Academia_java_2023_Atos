@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tabela Periódica</title>
+</head>
+<body>
+    <div class="container">
+        <table class="tabelaperiodica">
+            <caption>Tabela Periódica Interativa</caption>
+            <!-- <thead>
+            </thead> -->
+        
+            <tbody> <!-- comando emmet tr*10>td{$}+td*4-->
+                <tr>
+                    <td class="elemento naometal">
+                        <a href="#hidrogenio"><span>1</span>H</a>
+                    </td>
+                    <td colspan="17"></td> 
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                    <td class="elemento gasnobre">
+                        <a href="#helio"><span>2</span>He</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#litio"><span>3</span>Li</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#berilio"><span>4</span>Be</a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="elemento semimetal">
+                        <a href="#boro"><span>5</span>B</a>
+                    </td>
+                    <td class="elemento naometal">
+                        <a href="#carbono"><span>6</span>C</a>
+                    </td>
+                    <td class="elemento naometal">
+                        <a href="#nitrogenio"><span>7</span>N</a>
+                    </td>
+                    <td class="elemento naometal">
+                        <a href="#oxigenio"><span>8</span>O</a>
+                    </td>
+                    <td class="elemento halogenio">
+                        <a href="#fluor"><span>9</span>F</a>
+                    </td>
+                    <td class="elemento gasnobre">
+                        <a href="#neonio"><span>10</span>Ne</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#sodio"><span>11</span>Na</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#magnesio"><span>12</span>Mg</a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="elemento outrometal">
+                        <a href="#aluminio"><span>13</span>Al</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#silicio"><span>14</span>Si</a>
+                    </td>
+                    <td class="elemento naometal"
+                    ><a href="#fosforo"><span>15</span>P</a>
+                    </td>
+                    <td class="elemento naometal">
+                        <a href="#enxofre"><span>16</span>S</a>
+                    </td>
+                    <td class="elemento halogenio">
+                        <a href="#cloro"><span>17</span>Cl</a>
+                    </td>
+                    <td class="elemento gasnobre">
+                        <a href="#argonio"><span>18</span>Ar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#potassio"><span>19</span>K</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#calcio"><span>20</span>Ca</a>
+                    </td>
+                    <td></td>
+                    <td class="elemento metaltransicao">
+                        <a href="#escandio"><span>21</span>Sc</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#titanio"><span>22</span>Ti</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#vanadio"><span>23</span>V</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#cromio"><span>24</span>Cr</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#manganes"><span>25</span>Mn</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#ferro"><span>26</span>Fe</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#cobalto"><span>27</span>Co</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#niquel"><span>28</span>Ni</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#cobre"><span>29</span>Cu</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#zinco"><span>30</span>Zn</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#galio"><span>31</span>Ga</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#germanio"><span>32</span>Ge</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#arsenio"><span>33</span>As</a>
+                    </td>
+                    <td class="elemento naometal">
+                        <a href="#selenio"><span>34</span>Se</a>
+                    </td>
+                    <td class="elemento halogenio">
+                        <a href="#bromo"><span>35</span>Br</a>
+                    </td>
+                    <td class="elemento gasnobre">
+                        <a href="#criptonio"><span>36</span>Kr</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#rubidio"><span>37</span>Rb</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#estroncio"><span>38</span>Sr</a>
+                    </td>
+                    <td></td>
+                    <td class="elemento metaltransicao">
+                        <a href="#itrio"><span>39</span>Y</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#zirconio"><span>40</span>Zr</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#niobio"><span>41</span>Nb</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#molibidenio"><span>42</span>Mo</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#tecnecio"><span>43</span>Tc</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#rutenio"><span>44</span>Ru</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#rodio"><span>45</span>Rh</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#paladio"><span>46</span>Pd</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#prata"><span>47</span>Ag</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#cadmio"><span>48</span>Cd</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#indio"><span>49</span>In</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#estanho"><span>50</span>Sn</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#antimonio"><span>51</span>Sb</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#telurio"><span>52</span>Te</a>
+                    </td>
+                    <td class="elemento halogenio">
+                        <a href="#iodo"><span>53</span>I</a>
+                    </td>
+                    <td class="elemento gasnobre"
+                    ><a href="#xenonio"><span>54</span>Xe</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#cesio"><span>55</span>Cs</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#bario"><span>56</span>Ba</a>
+                    </td>
+                    <td>*</td>
+                    <td class="elemento metaltransicao">
+                        <a href="#lutecio"><span>71</span>Lu</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#hafnio"><span>72</span>Hf</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#tantalo"><span>73</span>Ta</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#tungstenio"><span>74</span>W</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#renio"><span>75</span>Re</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#osmio"><span>76</span>Os</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#iridio"><span>77</span>Ir</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#platina"><span>78</span>Pt</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#ouro"><span>79</span>Au</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#mercurio"><span>80</span>Hg</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#talio"><span>81</span>Tl</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#chumbo"><span>82</span>Pb</a>
+                    </td>
+                    <td class="elemento outrometal">
+                        <a href="#bismuto"><span>83</span>Bi</a>
+                    </td>
+                    <td class="elemento semimetal">
+                        <a href="#polonio"><span>84</span>Po</a>
+                    </td>
+                    <td class="elemento halogenio">
+                        <a href="#astato"><span>85</span>At</a>
+                    </td>
+                    <td class="elemento gasnobre">
+                        <a href="#radonio"><span>86</span>Rn</a>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="elemento metalalcalino">
+                        <a href="#francio"><span>87</span>Fr</a>
+                    </td>
+                    <td class="elemento metalalcalinoterroso">
+                        <a href="#radio"><span>88</span>Ra</a>
+                    </td>
+                    <td>**</td>
+                    <td class="elemento metaltransicao">
+                        <a href="#laurencio"><span>103</span>Lr</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#rutherfordio"><span>104</span>Rf</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#dubnio"><span>105</span>Db</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#seaborgio"><span>106</span>Sg</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#bohrio"><span>107</span>Bh</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#hassio"><span>108</span>Hs</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#meitnerio"><span>109</span>Mt</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#darmstadtio"><span>110</span>Ds</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#roentenio"><span>111</span>Rg</a>
+                    </td>
+                    <td class="elemento metaltransicao">
+                        <a href="#copernicio"><span>112</span>Cn</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#nihonio"><span>113</span>Nh</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#flerovio"><span>114</span>Fl</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#moscovio"><span>115</span>Mc</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#livermorio"><span>116</span>Lv</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#tennesso"><span>117</span>Ts</a>
+                    </td>
+                    <td class="elemento propsdesc">
+                        <a href="#oganessonio"><span>118</span>Og</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="elementosanexos">
+                    <td></td>
+                    <td></td>
+                    <td>*</td>
+                    <td class="elemento lantanideo">
+                        <a href="#lantanio"><span>57</span>La</a
+                        ></td>
+                    <td class="elemento lantanideo">
+                        <a href="#cerio"><span>58</span>Ce</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#praseodimio"><span>59</span>Pr</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#neodimio"><span>60</span>Nd</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#promecio"><span>61</span>Pm</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#samario"><span>62</span>Sm</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#europio"><span>63</span>Eu</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#gadolinio"><span>64</span>Gd</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#terbio"><span>65</span>Tb</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#disprosio"><span>66</span>Dy</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#holmio"><span>67</span>Ho</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#erbio"><span>68</span>Er</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#tulio"><span>69</span>Tm</a>
+                    </td>
+                    <td class="elemento lantanideo">
+                        <a href="#iterbio"><span>70</span>Yb</a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="elementosanexos">
+                    <td></td>
+                    <td></td>
+                    <td>**</td>
+                    <td class="elemento actinideo">
+                        <a href="#actinio"><span>89</span>Ac</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#torio"><span>90</span>Th</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#protactinio"><span>91</span>Pa</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#uranio"><span>92</span>U</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#neptunio"><span>93</span>Np</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#plutonio"><span>94</span>Pu</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#americio"><span>95</span>Am</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#curio"><span>96</span>Cm</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#berquelio"><span>97</span>Bk</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#californio"><span>98</span>Cf</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#einstenio"><span>99</span>Es</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#fermio"><span>100</span>Fm</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#mendelevio"><span>101</span>Md</a>
+                    </td>
+                    <td class="elemento actinideo">
+                        <a href="#nobelio"><span>102</span>No</a>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+            
+            <!-- <tfoot style="display: none;">
+                
+            </tfoot> -->
+        </table>
+    </div>
+
+    <div class="legenda container">
+        <div class="titulolegenda">
+            Legenda
+        </div>
+        <div class="elementoexemplo naometal">
+            <div class="numeroatomico">Nº Atômico</div><div class="simbolo">Símbolo</div>
+        </div>
+
+        <div class="container" style="margin: 10px auto; width: 30rem; height: 10rem; display: flex; flex-wrap: wrap; flex: 1 1 20px;">
+            <div style="margin-left: 10px;"><div class="corlegenda metalalcalino"></div><p class="txtlegenda">metais alcalinos</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda metalalcalinoterroso"></div><p class="txtlegenda">metais alcaninos terrosos</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda metaltransicao"></div><p class="txtlegenda">outros metais</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda outrometal"></div><p class="txtlegenda">metais de transição</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda semimetal"></div><p class="txtlegenda">semi-metais</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda lantanideo"></div><p class="txtlegenda">lantanídeos</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda actinideo"></div><p class="txtlegenda">actinídeos</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda naometal"></div><p class="txtlegenda">não metais</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda halogenio"></div><p class="txtlegenda">halogênios</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda gasnobre"></div><p class="txtlegenda">gases nobres</p></div>
+            <div style="margin-left: 10px;"><div class="corlegenda propsdesc"></div><p class="txtlegenda">propriedades químicas desconhecidas</p></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="tabelainfo">
+            <caption>Informações adicionais</caption>
+            <thead>
+                <tr>
+                    <td>Nº Atômico</td>
+                    <td>Símbolo</td>
+                    <td>Nome</td>
+                    <td>Massa Atômica</td>
+                    <td>Grupo</td>
+                    <td>Classificação</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr id="hidrogenio" class="naometal">
+                    <td>1</td>
+                    <td>H</td>
+                    <td>Hidrogênio</td>
+                    <td>1.0080</td>
+                    <td>1</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="helio" class="gasnobre">
+                    <td>2</td>
+                    <td>He</td>
+                    <td>Hélio</td>
+                    <td>4.0026</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="litio" class="metalalcalino">
+                    <td>3</td>
+                    <td>Li</td>
+                    <td>Lítio</td>
+                    <td>6.941</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="berilio" class="metalalcalinoterroso">
+                    <td>4</td>
+                    <td>Be</td>
+                    <td>Berílio</td>
+                    <td>9.0122</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="boro" class="semimetal">
+                    <td>5</td>
+                    <td>B</td>
+                    <td>Boro</td>
+                    <td>10.8110</td>
+                    <td>13</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="carbono" class="naometal">
+                    <td>6</td>
+                    <td>C</td>
+                    <td>Carbono</td>
+                    <td>12.0107</td>
+                    <td>14</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="nitrogenio" class="naometal">
+                    <td>7</td>
+                    <td>N</td>
+                    <td>Nitrogênio</td>
+                    <td>14.0067</td>
+                    <td>15</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="oxigenio" class="naometal">
+                    <td>8</td>
+                    <td>O</td>
+                    <td>Oxigênio</td>
+                    <td>15.9994</td>
+                    <td>16</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="fluor" class="halogenio">
+                    <td>9</td>
+                    <td>F</td>
+                    <td>Flúor</td>
+                    <td>18.9984</td>
+                    <td>17</td>
+                    <td>Halogênio</td>
+                </tr>
+                <tr id="neonio" class="gasnobre">
+                    <td>10</td>
+                    <td>Ne</td>
+                    <td>Neônio</td>
+                    <td>20.1797</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="sodio" class="metalalcalino">
+                    <td>11</td>
+                    <td>Na</td>
+                    <td>Sódio</td>
+                    <td>22.9898</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="magnesio" class="metalalcalinoterroso">
+                    <td>12</td>
+                    <td>Mg</td>
+                    <td>Magnésio</td>
+                    <td>24.3050</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="aluminio" class="outrometal">
+                    <td>13</td>
+                    <td>Al</td>
+                    <td>Alumínio</td>
+                    <td>26.9815</td>
+                    <td>13</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="silicio" class="semimetal">
+                    <td>14</td>
+                    <td>Si</td>
+                    <td>Silício</td>
+                    <td>28.0855</td>
+                    <td>14</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="fosforo" class="naometal">
+                    <td>15</td>
+                    <td>P</td>
+                    <td>Fósforo</td>
+                    <td>30.9767</td>
+                    <td>15</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="enxofre" class="naometal">
+                    <td>16</td>
+                    <td>S</td>
+                    <td>Enxofre</td>
+                    <td>32.0650</td>
+                    <td>16</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="cloro" class="halogenio">
+                    <td>17</td>
+                    <td>Cl</td>
+                    <td>Cloro</td>
+                    <td>35.4530</td>
+                    <td>17</td>
+                    <td>Halogênio</td>
+                </tr>
+                <tr id="argonio" class="gasnobre">
+                    <td>18</td>
+                    <td>Ar</td>
+                    <td>Argônio</td>
+                    <td>39.9480</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="potassio" class="metalalcalino">
+                    <td>19</td>
+                    <td>K</td>
+                    <td>Potássio</td>
+                    <td>39.0983</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="calcio" class="metalalcalinoterroso">
+                    <td>20</td>
+                    <td>Ca</td>
+                    <td>Cálcio</td>
+                    <td>40.0780</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="escandio" class="metaltransicao">
+                    <td>21</td>
+                    <td>Sc</td>
+                    <td>Escândio</td>
+                    <td>44.9559</td>
+                    <td>3</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="titanio" class="metaltransicao">
+                    <td>22</td>
+                    <td>Ti</td>
+                    <td>Titânio</td>
+                    <td>47.8670</td>
+                    <td>4</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="vanadio" class="metaltransicao">
+                    <td>23</td>
+                    <td>V</td>
+                    <td>Vanádio</td>
+                    <td>50.9415</td>
+                    <td>5</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="cromio" class="metaltransicao">
+                    <td>24</td>
+                    <td>Cr</td>
+                    <td>Crômio</td>
+                    <td>51.9962</td>
+                    <td>6</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="manganes" class="metaltransicao">
+                    <td>25</td>
+                    <td>Mn</td>
+                    <td>Manganês</td>
+                    <td>54.9380</td>
+                    <td>7</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="ferro" class="metaltransicao">
+                    <td>26</td>
+                    <td>Fe</td>
+                    <td>Ferro</td>
+                    <td>55.8450</td>
+                    <td>8</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="cobalto" class="metaltransicao">
+                    <td>27</td>
+                    <td>Co</td>
+                    <td>Cobalto</td>
+                    <td>58.9332</td>
+                    <td>9</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="niquel" class="metaltransicao">
+                    <td>28</td>
+                    <td>Ni</td>
+                    <td>Níquel</td>
+                    <td>58.6934</td>
+                    <td>10</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="cobre" class="metaltransicao">
+                    <td>29</td>
+                    <td>Cu</td>
+                    <td>Cobre</td>
+                    <td>63.5460</td>
+                    <td>11</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="zinco" class="metaltransicao">
+                    <td>30</td>
+                    <td>Zn</td>
+                    <td>Zinco</td>
+                    <td>65.3800</td>
+                    <td>12</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="galio" class="outrometal">
+                    <td>31</td>
+                    <td>Ga</td>
+                    <td>Gálio</td>
+                    <td>69.7230</td>
+                    <td>13</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="germanio" class="semimetal">
+                    <td>32</td>
+                    <td>Ge</td>
+                    <td>Germânio</td>
+                    <td>72.64</td>
+                    <td>14</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="arsenio" class="semimetal">
+                    <td>33</td>
+                    <td>As</td>
+                    <td>Arsênio</td>
+                    <td>74.9216</td>
+                    <td>15</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="selenio" class="naometal">
+                    <td>34</td>
+                    <td>Se</td>
+                    <td>Selênio</td>
+                    <td>78.9600</td>
+                    <td>16</td>
+                    <td>Não metal</td>
+                </tr>
+                <tr id="bromo" class="halogenio">
+                    <td>35</td>
+                    <td>Br</td>
+                    <td>Bromo</td>
+                    <td>79.9040</td>
+                    <td>17</td>
+                    <td>Halogênio</td>
+                </tr>
+                <tr id="criptonio" class="gasnobre">
+                    <td>36</td>
+                    <td>Kr</td>
+                    <td>Criptônio</td>
+                    <td>83.7980</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="rubidio" class="metalalcalino">
+                    <td>37</td>
+                    <td>Rb</td>
+                    <td>Rubídio</td>
+                    <td>85.4678</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="estroncio" class="metalalcalinoterroso">
+                    <td>38</td>
+                    <td>Sr</td>
+                    <td>Estrôncio</td>
+                    <td>87.6200</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="itrio" class="metaltransicao">
+                    <td>39</td>
+                    <td>Y</td>
+                    <td>Ítrio</td>
+                    <td>88.9058</td>
+                    <td>3</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="zirconio" class="metaltransicao">
+                    <td>40</td>
+                    <td>Zr</td>
+                    <td>Zircônio</td>
+                    <td>91.2240</td>
+                    <td>4</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="niobio" class="metaltransicao">
+                    <td>41</td>
+                    <td>Nb</td>
+                    <td>Nióbio</td>
+                    <td>92.9064</td>
+                    <td>5</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="molibidenio" class="metaltransicao">
+                    <td>42</td>
+                    <td>Mo</td>
+                    <td>Molibidênio</td>
+                    <td>95.9600</td>
+                    <td>6</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="tecnecio" class="metaltransicao">
+                    <td>43</td>
+                    <td>Tc</td>
+                    <td>Tecnécio</td>
+                    <td>98.0000</td>
+                    <td>7</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="rutenio" class="metaltransicao">
+                    <td>44</td>
+                    <td>Ru</td>
+                    <td>Rutênio</td>
+                    <td>101.0700</td>
+                    <td>8</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="rodio" class="metaltransicao">
+                    <td>45</td>
+                    <td>Rh</td>
+                    <td>Ródio</td>
+                    <td>102.9055</td>
+                    <td>9</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="paladio" class="metaltransicao">
+                    <td>46</td>
+                    <td>Pd</td>
+                    <td>Paládio</td>
+                    <td>106.4200</td>
+                    <td>10</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="prata" class="metaltransicao">
+                    <td>47</td>
+                    <td>Ag</td>
+                    <td>Prata</td>
+                    <td>107.8682</td>
+                    <td>11</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="cadmio" class="metaltransicao">
+                    <td>48</td>
+                    <td>Cd</td>
+                    <td>Cádmio</td>
+                    <td>112.4410</td>
+                    <td>12</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="indio" class="outrometal">
+                    <td>49</td>
+                    <td>In</td>
+                    <td>Índio</td>
+                    <td>114.8180</td>
+                    <td>13</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="estanho" class="outrometal">
+                    <td>50</td>
+                    <td>Sn</td>
+                    <td>Estanho</td>
+                    <td>118.7100</td>
+                    <td>14</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="antimonio" class="semimetal">
+                    <td>51</td>
+                    <td>Sb</td>
+                    <td>Antimônio</td>
+                    <td>121.7600</td>
+                    <td>15</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="telurio" class="semimetal">
+                    <td>52</td>
+                    <td>Te</td>
+                    <td>Telúrio</td>
+                    <td>127.6000</td>
+                    <td>16</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="iodo" class="halogenio">
+                    <td>53</td>
+                    <td>I</td>
+                    <td>Iodo</td>
+                    <td>126.9044</td>
+                    <td>17</td>
+                    <td>Halogênio</td>
+                </tr>
+                <tr id="xenonio" class="gasnobre">
+                    <td>54</td>
+                    <td>Xe</td>
+                    <td>Xenônio</td>
+                    <td>131.2930</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="cesio" class="metalalcalino">
+                    <td>55</td>
+                    <td>Cs</td>
+                    <td>Césio</td>
+                    <td>132.9054</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="bario" class="metalalcalinoterroso">
+                    <td>56</td>
+                    <td>Ba</td>
+                    <td>Bário</td>
+                    <td>137.3270</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="lantanio" class="lantanideo">
+                    <td>57</td>
+                    <td>La</td>
+                    <td>Lantânio</td>
+                    <td>138.9054</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="cerio" class="lantanideo">
+                    <td>58</td>
+                    <td>Ce</td>
+                    <td>Cério</td>
+                    <td>140.1160</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="praseodimio" class="lantanideo">
+                    <td>59</td>
+                    <td>Pr</td>
+                    <td>Praseodímio</td>
+                    <td>140.9076</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="neodimio" class="lantanideo">
+                    <td>60</td>
+                    <td>Nd</td>
+                    <td>Neodímio</td>
+                    <td>144.2420</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="promecio" class="lantanideo" class="lantanideo">
+                    <td>61</td>
+                    <td>Pm</td>
+                    <td>Promécio</td>
+                    <td>145.0000</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="samario" class="lantanideo">
+                    <td>62</td>
+                    <td>Sm</td>
+                    <td>Samário</td>
+                    <td>150.3600</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="europio" class="lantanideo">
+                    <td>63</td>
+                    <td>Eu</td>
+                    <td>Európio</td>
+                    <td>151.9640</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="gadolinio" class="lantanideo">
+                    <td>64</td>
+                    <td>Gd</td>
+                    <td>Gadolínio</td>
+                    <td>157.2500</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="terbio" class="lantanideo">
+                    <td>65</td>
+                    <td>Tb</td>
+                    <td>Térbio</td>
+                    <td>158.9253</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="disprosio" class="lantanideo">
+                    <td>66</td>
+                    <td>Dy</td>
+                    <td>Disprósio</td>
+                    <td>162.5000</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="holmio" class="lantanideo">
+                    <td>67</td>
+                    <td>Ho</td>
+                    <td>Hólmio</td>
+                    <td>164.9303</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="erbio" class="lantanideo">
+                    <td>68</td>
+                    <td>Er</td>
+                    <td>Érbio</td>
+                    <td>167.2590</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="tulio" class="lantanideo">
+                    <td>69</td>
+                    <td>Tm</td>
+                    <td>Túlio</td>
+                    <td>168.9342</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="iterbio" class="lantanideo">
+                    <td>70</td>
+                    <td>Yb</td>
+                    <td>Itérbio</td>
+                    <td>173.0540</td>
+                    <td></td>
+                    <td>Lantanídeo</td>
+                </tr>
+                <tr id="lutecio" class="metaltransicao">
+                    <td>71</td>
+                    <td>Lu</td>
+                    <td>Lutécio</td>
+                    <td>174.9668</td>
+                    <td>3</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="hafnio" class="metaltransicao">
+                    <td>72</td>
+                    <td>Hf</td>
+                    <td>Háfnio</td>
+                    <td>178.4900</td>
+                    <td>4</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="tantalo" class="metaltransicao">
+                    <td>73</td>
+                    <td>Ta</td>
+                    <td>Tântalo</td>
+                    <td>180.9478</td>
+                    <td>5</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="tungstenio" class="metaltransicao">
+                    <td>74</td>
+                    <td>W</td>
+                    <td>Tungstênio</td>
+                    <td>183.8400</td>
+                    <td>6</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="renio" class="metaltransicao">
+                    <td>75</td>
+                    <td>Re</td>
+                    <td>Rênio</td>
+                    <td>186.2070</td>
+                    <td>7</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="osmio" class="metaltransicao">
+                    <td>76</td>
+                    <td>Os</td>
+                    <td>Ósmio</td>
+                    <td>190.2300</td>
+                    <td>8</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="iridio" class="metaltransicao">
+                    <td>77</td>
+                    <td>Ir</td>
+                    <td>Irídio</td>
+                    <td>192.2170</td>
+                    <td>9</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="platina" class="metaltransicao">
+                    <td>78</td>
+                    <td>Pt</td>
+                    <td>Platina</td>
+                    <td>195.084</td>
+                    <td>10</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="ouro" class="metaltransicao">
+                    <td>79</td>
+                    <td>Au</td>
+                    <td>Ouro</td>
+                    <td>196.9665</td>
+                    <td>11</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="mercurio" class="metaltransicao">
+                    <td>80</td>
+                    <td>Hg</td>
+                    <td>Mercúrio</td>
+                    <td>200.5900</td>
+                    <td>12</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="talio" class="outrometal">
+                    <td>81</td>
+                    <td>Tl</td>
+                    <td>Tálio</td>
+                    <td>204.3833</td>
+                    <td>13</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="chumbo" class="outrometal">
+                    <td>82</td>
+                    <td>Pb</td>
+                    <td>Chumbo</td>
+                    <td>207.2000</td>
+                    <td>14</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="bismuto" class="outrometal">
+                    <td>83</td>
+                    <td>Bi</td>
+                    <td>Bismuto</td>
+                    <td>208.9804</td>
+                    <td>15</td>
+                    <td>Outro metal</td>
+                </tr>
+                <tr id="polonio" class="semimetal">
+                    <td>84</td>
+                    <td>Po</td>
+                    <td>Polônio</td>
+                    <td>210.0000</td>
+                    <td>16</td>
+                    <td>Semi-metal</td>
+                </tr>
+                <tr id="astato" class="halogenio">
+                    <td>85</td>
+                    <td>At</td>
+                    <td>Ástato</td>
+                    <td>210.0000</td>
+                    <td>17</td>
+                    <td>Halogênio</td>
+                </tr>
+                <tr id="radonio" class="gasnobre">
+                    <td>86</td>
+                    <td>Rn</td>
+                    <td>Radônio</td>
+                    <td>220.0000</td>
+                    <td>18</td>
+                    <td>Gás nobre</td>
+                </tr>
+                <tr id="francio" class="metalalcalino">
+                    <td>87</td>
+                    <td>Fr</td>
+                    <td>Frâncio</td>
+                    <td>223.0000</td>
+                    <td>1</td>
+                    <td>Metal alcalino</td>
+                </tr>
+                <tr id="radio" class="metalalcalinoterroso">
+                    <td>88</td>
+                    <td>Ra</td>
+                    <td>Rádio</td>
+                    <td>226.0000</td>
+                    <td>2</td>
+                    <td>Metal alcalino terroso</td>
+                </tr>
+                <tr id="actinio" class="actinideo">
+                    <td>89</td>
+                    <td>Ac</td>
+                    <td>Actínio</td>
+                    <td>227.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="torio" class="actinideo">
+                    <td>90</td>
+                    <td>Th</td>
+                    <td>Tório</td>
+                    <td>232.0380</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="protactinio" class="actinideo">
+                    <td>91</td>
+                    <td>Pa</td>
+                    <td>Protactínio</td>
+                    <td>231.0358</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="uranio" class="actinideo">
+                    <td>92</td>
+                    <td>U</td>
+                    <td>Urânio</td>
+                    <td>238.0289</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="neptunio" class="actinideo">
+                    <td>93</td>
+                    <td>Np</td>
+                    <td>Neptúnio</td>
+                    <td>237.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="plutonio" class="actinideo">
+                    <td>94</td>
+                    <td>Pu</td>
+                    <td>Plutônio</td>
+                    <td>244.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="americio" class="actinideo">
+                    <td>95</td>
+                    <td>Am</td>
+                    <td>Amerício</td>
+                    <td>243.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="curio" class="actinideo">
+                    <td>96</td>
+                    <td>Cm</td>
+                    <td>Cúrio</td>
+                    <td>247.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="berquelio" class="actinideo">
+                    <td>97</td>
+                    <td>Bk</td>
+                    <td>Berquélio</td>
+                    <td>247.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="californio" class="actinideo">
+                    <td>98</td>
+                    <td>Cf</td>
+                    <td>Califórnio</td>
+                    <td>251.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="einstenio" class="actinideo">
+                    <td>99</td>
+                    <td>Es</td>
+                    <td>Einstênio</td>
+                    <td>252.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="fermio" class="actinideo">
+                    <td>100</td>
+                    <td>Fm</td>
+                    <td>Férmio</td>
+                    <td>257.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="mendelevio" class="actinideo">
+                    <td>101</td>
+                    <td>Md</td>
+                    <td>Mendelévio</td>
+                    <td>258.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="nobelio" class="actinideo">
+                    <td>102</td>
+                    <td>No</td>
+                    <td>Nobélio</td>
+                    <td>259.0000</td>
+                    <td></td>
+                    <td>Actinídeo</td>
+                </tr>
+                <tr id="laurencio" class="metaltransicao">
+                    <td>103</td>
+                    <td>Lr</td>
+                    <td>Laurêncio</td>
+                    <td>262.0000</td>
+                    <td>3</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="rutherfordio" class="metaltransicao">
+                    <td>104</td>
+                    <td>Rf</td>
+                    <td>Rutherfórdio</td>
+                    <td>261.0000</td>
+                    <td>4</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="dubnio" class="metaltransicao">
+                    <td>105</td>
+                    <td>Db</td>
+                    <td>Dúbnio</td>
+                    <td>262.0000</td>
+                    <td>5</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="seaborgio" class="metaltransicao">
+                    <td>106</td>
+                    <td>Sg</td>
+                    <td>Seabórgio</td>
+                    <td>266.0000</td>
+                    <td>6</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="bohrio" class="metaltransicao">
+                    <td>107</td>
+                    <td>Bh</td>
+                    <td>Bóhrio</td>
+                    <td>264.0000</td>
+                    <td>7</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="hassio" class="metaltransicao">
+                    <td>108</td>
+                    <td>Hs</td>
+                    <td>Hássio</td>
+                    <td>277.0000</td>
+                    <td>8</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="meitnerio" class="metaltransicao">
+                    <td>109</td>
+                    <td>Mt</td>
+                    <td>Meitnério</td>
+                    <td>268.0000</td>
+                    <td>9</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="darmstadtio" class="metaltransicao">
+                    <td>110</td>
+                    <td>Ds</td>
+                    <td>Darmstádtio</td>
+                    <td>271.0000</td>
+                    <td>10</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="roentenio" class="metaltransicao">
+                    <td>111</td>
+                    <td>Rg</td>
+                    <td>Roentênio</td>
+                    <td>272.0000</td>
+                    <td>11</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="copernicio" class="metaltransicao">
+                    <td>112</td>
+                    <td>Cn</td>
+                    <td>Copernício</td>
+                    <td>285.0000</td>
+                    <td>12</td>
+                    <td>Metal de transição</td>
+                </tr>
+                <tr id="nihonio" class="propsdesc">
+                    <td>113</td>
+                    <td>Nh</td>
+                    <td>Nihônio</td>
+                    <td>284.0000</td>
+                    <td>13</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+                <tr id="flerovio" class="propsdesc">
+                    <td>114</td>
+                    <td>Fl</td>
+                    <td>Fleróvio</td>
+                    <td>289.0000</td>
+                    <td>14</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+                <tr id="moscovio" class="propsdesc">
+                    <td>115</td>
+                    <td>Mc</td>
+                    <td>Moscóvio</td>
+                    <td>288.0000</td>
+                    <td>15</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+                <tr id="livermorio" class="propsdesc">
+                    <td>116</td>
+                    <td>Lv</td>
+                    <td>Livermório</td>
+                    <td>292.0000</td>
+                    <td>16</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+                <tr id="tennesso" class="propsdesc">
+                    <td>117</td>
+                    <td>Ts</td>
+                    <td>Tennesso</td>
+                    <td>288.0000</td>
+                    <td>17</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+                <tr id="oganessonio" class="propsdesc">
+                    <td>118</td>
+                    <td>Os</td>
+                    <td>Oganessônio</td>
+                    <td>294.0000</td>
+                    <td>18</td>
+                    <td>Propriedades químicas desconhecidas</td>
+                </tr>
+            </tbody>
+
+            <tfoot style="display: none;">
+                <tr>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!-- botão para retorno ao topo 
+        <div class="bttn">
+        <a href="index.html">Topo &#128070</a>
+    </div> -->
+</body>
+</html>

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+@media screen and (max-width: 500px){
+    .container {
+        margin: 4rem auto;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px){
+    .container {
+        margin: 4rem auto;
+    }
+}
+
+@media screen and (min-width: 901px){
+    .container {
+        margin: 4rem auto;
+    }
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Botão pra retorno ao topo da página
+.bttn {
+    position: sticky;
+    : 100px;
+
+    z-index: 3;
+}
+
+.bttn a{
+    text-decoration: none;
+    color: black;
+    border: 0.1rem solid #686f72ce;
+    border-radius: 5px;
+    padding: 10px 4px;
+    background-color: rgba(245, 245, 245, 0.836);
+    /* background: linear-gradient(#3fb9ff6e, #f8969652, #3fb9ff2a);
+}
+
+.bttn a:hover {
+    transition: 0.5s ease-out;
+    background-color: #bacbd3ce;
+} */
+
+table { 
+    margin: 3rem auto;
+}
+
+table a{
+    text-decoration: none;
+    color: black;
+    /* padding: 0.5rem; */
+}
+
+table td {
+    position: relative;
+}
+
+table span {
+    position: absolute;
+    font-size: 0.8rem;
+    top: -7px;
+    right: 3px;
+}
+
+.tabelaperiodica {
+    position: relative;
+    border-collapse: separate;
+    border-spacing: 0.2rem 0.3rem;
+}
+
+.tabelaperiodica caption {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.tabelaperiodica td {
+    text-align: center;
+    line-height: 2rem;
+}
+
+.elemento {
+    border: 0.1rem solid #686f72ce;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    width: 40px;
+    height: 40px;
+}
+
+.legenda {
+   margin: 1rem auto;
+}
+
+.titulolegenda {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.elementoexemplo{
+    border: 0.1rem solid #686f72ce;
+    border-radius: 0.25rem;
+    text-align: center;
+    line-height: 2rem;
+    position: relative;
+    margin: 10px auto;
+    width: 80px;
+    height: 80px;
+}
+
+.numeroatomico {
+    font-size: 0.7rem;
+    position: absolute;
+    top: -6px;
+    right: 3px;
+}
+
+.simbolo {
+    position: absolute;
+    bottom: 25px;
+    left: 9px;
+    text-align: center;
+
+}
+
+.corlegenda {
+    border: 0.1rem solid #686f72ce;
+    border-radius: 0.25rem;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.txtlegenda {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tabelainfo {
+    border-collapse: collapse;
+    border: 0.1rem solid #686f72ce;
+    padding: 0.5rem;
+}
+
+.tabelainfo caption {
+    margin: 1rem auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.tabelainfo thead td{
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 0 0.5rem;
+}
+
+.tabelainfo tr td {
+    border: 0.1rem solid #686f72ce;
+    text-align: center;
+}
+
+.metalalcalino {
+    background-color: #ffc591;
+}
+
+.metalalcalino:hover, 
+.metalalcalino a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #c48e5f;
+}
+
+.metalalcalinoterroso {
+    background-color: #ffdf91;
+}
+
+.metalalcalinoterroso:hover, 
+.metalalcalinoterroso a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #ffdf91;
+}
+
+.metaltransicao {
+    background-color: #ecff91;
+}
+
+.metaltransicao:hover, 
+.metaltransicao a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #ecff91;
+}
+
+.outrometal {
+    background-color: #fff991;
+}
+
+.outrometal:hover,
+.outrometal a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #fff991;
+}
+
+.semimetal {
+    background-color: #91ff9e;
+}
+
+.semimetal:hover,
+.semimetal a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #91ff9e;
+}
+
+.naometal {
+    background-color: #ab91ff;
+}
+
+.naometal:hover,
+.naometal a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #ab91ff;
+}
+
+.halogenio {
+    background-color: #f991ff;
+}
+
+.halogenio:hover,
+.halogenio a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #f991ff;
+}
+
+.propsdesc {
+    background-color: #c8c8c8;
+}
+
+.propsdesc:hover,
+.propsdesc a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #c8c8c8;
+}
+
+.gasnobre {
+    background-color: #91dfff;
+}
+
+.gasnobre:hover,
+.gasnobre a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #91dfff;
+}
+
+.lantanideo{
+    background-color: #d2ff91;
+}
+
+.lantanideo:hover,
+.lantanideo a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #d2ff91;
+}
+
+.actinideo {
+    background-color: #b8ff91;
+}
+
+.actinideo:hover,
+.actinideo a:hover {
+    transition: 0.5s ease-out;
+    background-color: white;
+    text-shadow: 0.5px 0.5px 3px #b8ff91;
+}
