@@ -1,0 +1,62 @@
+:root {
+   --vermelho: #d30000;
+   --azul: #184ad1;
+   --amarelo: #faea0f;
+   --verde: #006300;
+   --marrom: #914a2e;
+   --roxo: #5c006e;
+   --lilas: #b325c0;
+   --preto: #000000;
+   --cinza: #5a5a5a;
+}
+
+[data-cor="cor0"], [data-cor="cor0"]:hover {
+   background-color: var(--vermelho);
+   color: var(--vermelho);
+}
+
+[data-cor="cor1"], [data-cor="cor1"]:hover {
+   background-color: var(--azul);
+   color: var(--azul);
+}
+
+[data-cor="cor2"], [data-cor="cor2"]:hover {
+   background-color: var(--amarelo);
+   color: var(--amarelo);
+}
+
+[data-cor="cor3"], [data-cor="cor3"]:hover {
+   background-color: var(--verde);
+   color: var(--verde);
+}
+
+[data-cor="cor4"], [data-cor="cor4"]:hover {
+   background-color: var(--marrom);
+   color: var(--marrom);
+}
+
+[data-cor="cor5"], [data-cor="cor5"]:hover {
+   background-color: var(--roxo);
+   color: var(--roxo)
+}
+
+[data-cor="cor6"], [data-cor="cor6"]:hover {
+   background-color: var(--lilas);
+   color: var(--lilas);
+}
+
+[data-cor="cor7"], [data-cor="cor7"]:hover {
+   background-color: var(--cinza);
+   color: var(--cinza);
+}
+
+[data-cor="cor8"], [data-cor="cor8"]:hover {
+   background-color: var(--preto);
+   color: var(--preto);
+}
+
+#corSorteada {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+}
